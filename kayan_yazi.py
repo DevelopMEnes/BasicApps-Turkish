@@ -2,14 +2,14 @@
 
 import time
 x = input("Yazıyı giriniz : ")
-# this program output as:
+# bu program şuna benzer çıktı verecektir:
 # 1234
 #  123
 #   12
 #    1
 #
-# 1
-# 12
+# 4
+# 34
 
 liste = [i for i in x]
 print(*liste, end="")
